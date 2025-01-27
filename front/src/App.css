@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+}
+
+.filter-settings {
+  margin-top: 10px;
+}
+
+.number-input {
+  width: 60px;
+  padding: 8px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input[type="number"] {
+  padding: 10px;
+  margin: 5px;
+  width: 60px;
+  text-align: center;
+}
+
+button.bg-blue-500 {
+  background-color: #3490dc;
+}
+
+button.bg-green-500 {
+  background-color: #38c172;
+}
+
+button.bg-red-500 {
+  background-color: #e3342f;
+}
+
+.number-sorter-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.number-sorter-container input {
+  margin: 5px;
+  padding: 10px;
+  width: 60px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.bg-green-500 {
+  background-color: #38c172;
+  color: white;
+}
+
+.bg-gray-200 {
+  background-color: #e2e8f0;
+}
